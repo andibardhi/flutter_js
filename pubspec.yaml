@@ -1,14 +1,15 @@
 name: js_testing
 description: "A new Flutter project."
-publish_to: 'none'
+publish_to: "none"
 version: 0.1.0
 
 environment:
-  sdk: '>=3.3.2 <4.0.0'
+  sdk: ">=3.3.2 <4.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
+  js: ^0.7.1
 
 dev_dependencies:
   flutter_test:
