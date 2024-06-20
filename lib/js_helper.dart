@@ -1,11 +1,9 @@
 @JS()
-library nuvo;
+library test;
 
-import 'package:js/js.dart';
+import 'dart:js_interop';
 
 @JS()
-external dynamic testJS(
-  Function(
-    String text,
-  ) onResults,
+external JSPromise<JSAny?> testJS(
+  JSExportedDartFunction onResults,
 );
